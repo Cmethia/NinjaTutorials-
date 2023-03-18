@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="NinjaTutorialSuite">
+  <test  name="NinjaTest">
+    <classes>
+      <class name="com.maven.framework.TestNG_Hybrid.AppTest"/>
+ 
+      <class name="qa.testCasesNinjaTutorials.Register"/>
+      <class name="qa.testCasesNinjaTutorials.LoginTest"/>
+        <class name="qa.testCasesNinjaTutorials.Search"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
